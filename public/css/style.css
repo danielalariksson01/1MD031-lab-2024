@@ -1,22 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Cormorant:wght@700&display=swap');
+
+@import 'https://fonts.googleapis.com/css?family=Pacifico|Dosis';
 body {
     font-size: 12pt;
 }
 
-p {
-    color: red;
+
+
+button{
+    margin-left: 200px;
+    margin-right: 200px;
+    border-style: inset;
+    border-radius: 100px;
 }
+button:hover {
+    background-color: #ff0000; /* Default blue background */
+            color: white; /* Default white text */
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: crosshair;
+            transition: background-color 0.5s ease; 
+
+    
+ }
 
 h1 {
-    font-family: 'Agbalumo';
+    font-family: 'Times New Roman';
+    font-size: 40pt;
+}
+
+h2 {
+    font-family: 'Times New Roman';
     font-size: 36pt;
 }
+h3{
+    font-family: 'Times New Roman';
+    font-size: 36pt;
+}
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+}
 main, header, footer, nav ul {
-    max-width: 40rem;
+    max-width: 80rem;
     margin: 0 auto 0 auto;
 }
 main {
-    background-color: bisque;
+    background-color: rgb(255, 255, 255);
 }
 
 /* nav ul li {
@@ -26,17 +58,58 @@ main {
     margin: 1em;
 } */
 
+.CustomerInfo{
+    color: #5a9215;
+    background-color: rgb(255, 255, 255);
+    border-style: inset;
+    margin-top: 10px;
+    padding: 10px;
+    
+}
+.BurgerSelect{
+    color: #950b0b;
+    background-color: rgb(0, 0, 0);
+    margin-top: 10px;
+    padding: 10px;
+    border-style: dashed;
+    border-color: aliceblue;
+    border-spacing: 10px;
+    
+}
+#Gluten{
+    text-transform: uppercase;
+    color: #5737e5;
+}
+#Egg{
+    text-transform: uppercase;
+    color: #48e537;
+}
+#Meat{
+    text-transform: uppercase;
+    color: #320893;
+}
+#Cheese{
+    text-transform: uppercase;
+    color: #3218c3;
+}
+#SoyProtein{
+    text-transform: uppercase;
+    color: #48e537;
+}
+
+
 header {
-    background-image: url("../img/polacks.jpg");
-    background-size: cover;
+  
+    background-image: url(C:\Users\danie\VSCODE\Lab_projects\Lab1_mk2\public\img\Vy_over_Uppsala.jpg);
+
     overflow: hidden;
     width: 100%;
-    height: 200px;
-    opacity: 0.5;
-}
+    height: auto;
+    opacity: 1;}
 
 header h1 {
     width:40rem;
+    color: #ffffff;
     margin: 0 auto;
     text-align: center;
 }
@@ -61,4 +134,42 @@ nav li {
 .Master {
     color: green;
     font-weight: bold;
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 10px; 
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto; 
+    background-color: #f8f9fa; 
+    color: #444;
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.box {
+    background-color: #000207;
+
+    border-radius: 5px; 
+    padding: 20px;
+    font-size: 150%;
+    text-align: center; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.a {
+    grid-column: 1; 
+    grid-row: 1 / span 2; }
+
+.b {
+    grid-column: 2; 
+    grid-row: 1 / span 2;
+}
+
+.c {
+    grid-column: 3;
+    grid-row: 1 / span 2;
 }
