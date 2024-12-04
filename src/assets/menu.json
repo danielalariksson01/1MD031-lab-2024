@@ -1,21 +1,21 @@
 [{
     "name": "Veggie Bliss", 
-    "kCal": 500, 
+    "kCal": 240, 
     "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
+    "lactose": true, 
+    "gluten": true
+},
+{
+    "name": "Swedish Burger", 
+    "kCal": 350, 
+    "url": "https://images-bonnier.imgix.net/files/ifo/production/20210603125803/IFO_154176-6-00012.jpg?auto=compress,format&w=1024%201024w",
+    "lactose": true, 
     "gluten": false
 },
 {
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
+    "name": "Green Burger", 
+    "kCal": 230, 
+    "url": "https://static1.squarespace.com/static/5c44f7a155b02c5aa1fb5f8e/t/5d9e59db9cc07b6a60d16b05/1570658782461/Bonnier_Green%252BBurgers%252B44.jpg?format=1500w",
     "lactose": false, 
-    "gluten": false
-},
-{
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
+    "gluten": true
 }]
